@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide page scrollbar */
+/* Hide scrollbar but keep scrolling */
+html {
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+body {
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
